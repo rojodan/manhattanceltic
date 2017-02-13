@@ -1,0 +1,68 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+
+	body {
+	  padding-top: 20px;
+	  padding-bottom: 20px;
+	}
+
+	.navbar {
+	  margin-bottom: 20px;
+	}
+	.navbar-default {
+		background: #009950;
+	}
+	.navbar-default {
+		background: #009950;
+	}
+	.navbar-default .navbar-brand {
+		color: #fff;
+	}
+	.navbar-default .navbar-nav > li > a {
+		color: #fff;
+	}
+	.navbar-brand-logo {		
+		float: left;
+		position: relative;
+	}
+	.navbar-brand {
+		padding-left: 20px;
+	}
+	.footer {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1188px;
+		height: 220px;
+		background: #009850;
+		color: #ccc;
+		clear: both;
+	}
+	#mc_logo{
+		margin: 2px;
+		width: 48px;
+		height: 48px;
+	}
+	#table-links {
+		margin-top: 20px;
+	}
+	#roster-links {
+		margin-top: 20px;
+	}
+	#firsts {
+		margin-top: 40px;
+	}
+	.tables {
+		margin-bottom: 60px;
+	}
+	table th{
+		text-align: center;
+	}
+	thead tr td {
+		font-weight: bold;
+	}
+	
