@@ -1,0 +1,225 @@
+
+	html {
+		width: 100%;
+		height: 100%;
+		background-repeat: no-repeat;
+		background: #78ee77; /* Old Browsers */
+		background: -webkit-linear-gradient(top,#78ee77,#3f803e); /*Safari 5.1-6*/
+		background: -o-linear-gradient(top,#78ee77,#3f803e); /*Opera 11.1-12*/
+		background: -moz-linear-gradient(top,#78ee77,#3f803e); /*Fx 3.6-15*/
+		background: linear-gradient(to bottom, #78ee77, #3f803e); /*Standard*/
+	}	
+
+	body { 
+		background-color: transparent;
+		
+	}
+
+	.boxes {
+		width: 50%;
+		margin: 0 auto;
+		text-align: center;
+		box-sizing: border-box;
+	}
+
+	img {
+		margin: 0;
+		width: 100%;
+	}
+	
+	a {
+		font-size: 120px;
+	}
+	
+	#boxLogo { 
+		width: 100%;
+		height: 150px;		
+		overflow: hidden;	
+		background-image: url('mc_logo.png');
+		background-size: 150px 150px;
+		background-repeat: no-repeat;
+		background-position: center; 
+	}
+	
+	#logoTxt {
+		display: none;
+	}
+	
+	#logoTxt {
+		font-family: 'Oswald', sans-serif;
+		font-size: 40px;
+		word-wrap: break-word;
+		font-weight: bold;
+		color: #3F803E;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%); 
+	}
+	
+	#boxLogo:hover {
+		background-color: #fff;
+		background-image: none;
+		cursor: pointer;
+	}
+	
+	#boxLogo:hover #logoTxt {
+		display: block;
+		width: 100%;
+	}
+	
+	#boxFacebook {
+		width: 100%;
+		height: 150px;
+		background: #3b5998;
+	}
+
+	#boxFacebook a {
+		display: block;
+		color: #fff;
+	}
+	
+	#boxFacebook a:hover{
+		color: #3b5998;
+		background-color: #fff;
+	}
+	
+	#boxInstagram {
+		width: 100%;
+		height: 150px;
+		background: #ee3e64;
+		overflow: hidden;
+	}
+
+	#boxInstagram a {
+		display: block;
+		color: #fff;
+	}
+	
+	#boxInstagram a:hover{
+		color: #ee3e64;
+		background-color: #fff;
+	}
+	
+	#boxTwitter {
+		width: 100%;
+		height: 150px;
+		background: #1DA1F2;
+		overflow: hidden;
+	}
+	
+	#boxTwitter a {
+		display: block;
+		color: #fff;
+	}
+	
+	#boxTwitter a:hover{
+		color: #1DA1F2;
+		background-color: #fff;
+	}
+	
+	#boxContact {
+		width: 100%;
+		height: 200px;
+		background-color: #FE9A2E;
+		overflow: hidden;
+	}
+
+	#boxContact a {
+		display: block;
+		color: #fff;
+	}
+	
+	#boxContact:hover {
+		background-color: #fff;
+		cursor: pointer;
+	}
+	
+	#boxContact:hover a{
+		color: #FE9A2E;
+	}
+		
+@media (min-width:768px) {
+	
+	.boxes {
+		margin: 150px auto;
+		text-align: center;
+		height: 600px;
+		width: 400px;
+		box-sizing: border-box;
+	}
+
+	a {
+		font-size: 150px;
+	}
+	
+	#boxLogo { 
+		float: left;
+		width: 200px;
+		height: 200px;		
+		overflow: hidden;	
+		background-size: 190px 190px;
+	}
+	
+	#boxLogo a {
+		font-size: 12px;
+		display: block;
+	}
+	
+	#boxLogo a:hover{
+		background-color: #fff;
+	}
+	
+	#boxFacebook { 
+		float: left;
+		width: 200px;
+		height: 200px;
+		background: #3b5998;
+	}
+
+	#boxFacebook a {
+		display: block;
+		color: #fff;
+	}
+	
+	#boxFacebook a:hover{
+		color: #3b5998;
+		background-color: #fff;
+	}
+	
+	#boxInstagram { 
+		float: left;
+		width: 200px;
+		height: 200px;
+		background: #ee3e64;
+		overflow: hidden;
+	}
+
+	#boxInstagram a {
+		display: block;
+		color: #fff;
+	}
+	
+	#boxInstagram a:hover{
+		color: #ee3e64;
+		background-color: #fff;
+	}
+	
+	#boxTwitter { 
+		float: left;
+		width: 200px;
+		height: 200px;
+		background: #1DA1F2;
+		overflow: hidden;
+	}
+	
+	#boxTwitter a {
+		display: block;
+		color: #fff;
+	}
+	
+	#boxTwitter a:hover{
+		color: #1DA1F2;
+		background-color: #fff;
+	}
+	
+}
